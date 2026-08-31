@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Salman — Digital Creator & Web Developer</title>
+    <meta
+      name="description"
+      content="Salman is a digital creator and web developer building modern websites, digital experiences, and online products."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Salman — Digital Creator & Web Developer" />
+    <meta
+      property="og:description"
+      content="Salman is a digital creator and web developer building modern websites, digital experiences, and online products."
+    />
+    <meta
+      property="og:image"
+      content="https://i.ibb.co.com/20QJ4jVm/file-0000000056a081fa901b1bb731ebf120.png"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Salman — Digital Creator & Web Developer" />
+    <meta
+      name="twitter:description"
+      content="Salman is a digital creator and web developer building modern websites, digital experiences, and online products."
+    />
+    <meta name="theme-color" content="#0a0a0c" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#fafafa" media="(prefers-color-scheme: light)" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem("salman-theme");
+          var dark =
+            stored === "dark" ||
+            (!stored && window.matchMedia("(prefers-color-scheme: dark)").matches);
+          if (dark) document.documentElement.classList.add("dark");
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
