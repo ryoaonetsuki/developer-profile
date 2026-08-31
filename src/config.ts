@@ -4,16 +4,17 @@
  * button and link across the site uses them.
  * ───────────────────────────────────────────── */
 
-/** Salman's future store domain. Replace after purchasing the domain. */
-export const STORE_URL = "YOUR_STORE_DOMAIN_HERE";
+/** Salman's store website. */
+export const STORE_URL = "https://www.vrozek.xyz";
 
-/** Social links — replace placeholders with real profiles when ready. */
-export const GITHUB_URL = "YOUR_GITHUB_URL_HERE";
-export const FACEBOOK_URL = "YOUR_FACEBOOK_URL_HERE";
-export const INSTAGRAM_URL = "YOUR_INSTAGRAM_URL_HERE";
-export const LINKEDIN_URL = "YOUR_LINKEDIN_URL_HERE";
-export const TELEGRAM_URL = "YOUR_TELEGRAM_URL_HERE";
-export const EMAIL_ADDRESS = "YOUR_EMAIL_HERE";
+/** Social and contact links. */
+export const GITHUB_URL = "https://github.com/salman-dev-app";
+export const FACEBOOK_URL = "https://facebook.com/salmandevapp";
+export const INSTAGRAM_URL = "https://www.instagram.com/mdsalman.010?igsi=MXg4ZTc0eDlwaXAyYw==";
+export const LINKEDIN_URL = "";
+export const TELEGRAM_URL = "https://t.me/Otakuosenpai";
+export const TELEGRAM_CHANNEL_URL = "https://t.me/salmandevapp";
+export const EMAIL_ADDRESS = "mdsalmanhelp@gmail.com";
 
 /** Profile image used in the hero section. */
 export const PROFILE_IMAGE =
