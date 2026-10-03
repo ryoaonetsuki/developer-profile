@@ -1,6 +1,6 @@
-# Salman’s Modern Developer Portfolio
+# Ryo Aonetsuki’s Modern Developer Portfolio
 
-A responsive React and Vite portfolio for Salman, built with Tailwind CSS and Lucide icons. The production build is emitted as a self-contained static `dist/index.html`, which makes the site suitable for Cloudflare Pages, GitHub Pages, or any static hosting provider.
+A responsive React and Vite portfolio for Ryo Aonetsuki, built with Tailwind CSS and Lucide icons. The production build is emitted as a self-contained static `dist/index.html`, which makes the site suitable for Cloudflare Pages, GitHub Pages, or any static hosting provider.
 
 ## Local development
 
