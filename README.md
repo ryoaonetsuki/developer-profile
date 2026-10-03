@@ -1,17 +1,46 @@
 # Developer Portfolio
 
-A responsive React and Vite portfolio with Tailwind CSS, designed for static deployment.
+A responsive developer portfolio built with React, Vite, TypeScript, and Tailwind CSS.
 
-## Overview
+## Requirements
 
-This repository contains the source code and project files for the application.
+- Node.js
+- npm
 
-## Setup
-
-Follow the project configuration and dependency files included in the repository to install and run it locally.
-
-Example command:
+## Installation
 
 ```bash
-npm ci
+git clone https://github.com/ryoaonetsuki/developer-profile.git
+cd developer-profile
+npm install
 ```
+
+## Development
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+Preview the production build:
+
+```bash
+npm run preview
+```
+
+## Project Structure
+
+The application source and UI components are contained in the source directories. Vite and Tailwind configuration files control the development and production build.
+
+## Deployment
+
+Deploy the generated production build to a static hosting provider that supports Vite applications.
+
+## Notes
+
+Keep environment-specific configuration and secrets outside committed source files.
